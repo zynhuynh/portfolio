@@ -40,10 +40,10 @@ export default function ContactFooter() {
             © {new Date().getFullYear()} Kimmie Huynh. All rights reserved.
           </p>
           <div className="flex items-center gap-4 text-textSecondary">
-            <a href="#" className="hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/kimmiehuynh/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               <Linkedin size={24} />
             </a>
-            <a href="#" className="hover:text-primary transition-colors">
+            <a href="https://x.com/KimmieKyros" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               <Twitter size={24} />
             </a>
           </div>
