@@ -13,6 +13,10 @@ const rawProjectData = [
     heroImage: "/assets/gm-vietnam/gm-vietnam-main-stage.jpeg",
     overviewImage: "/assets/gm-vietnam/gm-vietnam-stage-wide.jpeg",
     shortDescription: "Vietnam's largest annual Web3 conference with 10,000+ participants, 200+ speakers and 200+ media outlets per year.",
+    homepageCardContent: [
+      "GM Vietnam is Vietnam’s largest annual Web3 conferences with 10,000+ participants, 200+ speakers and 200+ media outlets per year.",
+      "I led content and performance marketing, helping the event reach 12,000+ registrations and 20M+ impressions across Web2 and Web3 channels."
+    ],
     impact: ["12,000+ Registrations", "20M+ Impressions", "200+ KOLs", "250+ Media Outlets"],
     overview: [
       "GM Vietnam is Vietnam's largest annual Web3 conference, bringing together global blockchain leaders, developers, investors and builders.",
@@ -115,6 +119,10 @@ const rawProjectData = [
     ],
     heroImage: "/assets/ancient8/ancient8-asset-2.jpeg",
     shortDescription: "A gaming Layer2 built on Ethereum, backed by leading investors including Pantera Capital, Animoca Brands and Dragonfly.",
+    homepageCardContent: [
+      "Ancient8 is a gaming Layer2 built on Ethereum, backed by $10M funding from leading investors including Pantera Capital, Animoca Brands and Dragonfly.",
+      "I led growth strategy and ecosystem campaigns that increased TVL, on-chain wallet activity and supported exchange listings including Coinbase and Bybit."
+    ],
     impact: ["2M+ On-chain Wallets", "41M+ Transactions", "$5M Incentive Program", "8+ Exchange Listings"],
     overview: [
       "Ancient8 is a gaming Layer 2 built on the OP Stack, focused on onboarding the next generation of gamers and builders through ecosystem incentives, campaigns and partnerships.",
@@ -209,6 +217,10 @@ const rawProjectData = [
     ],
     heroImage: "https://static.wixstatic.com/media/6ec183_743f4c0e781a4a25b8b3bc6cb3a49f12~mv2.jpeg",
     shortDescription: "A Web3 gaming quest platform connecting users with blockchain games through on-chain missions and reward campaigns, partnering with 100+ game studios.",
+    homepageCardContent: [
+      "Space3 is a Web3 gaming quest platform connecting users with blockchain games through on-chain missions and reward campaigns, partnering with 100+ games studios.",
+      "I led growth campaigns and ecosystem partnerships that helped scale the platform to 1M+ users and 100k+ peak DAU, while distributing $500k+ rewards through multi-channel marketing, KOL activations and community campaigns."
+    ],
     impact: ["1M+ Users", "100K+ Peak DAU", "100+ Gaming Partners", "$500K+ Rewards"],
     overview: [
       "Space3 is a Web3 gaming user-acquisition platform (aka questing platform) that helps blockchain game studios to onboard players through gamified quests, missions, campaigns and reward systems.",
@@ -275,6 +287,10 @@ const rawProjectData = [
     ],
     heroImage: "https://static.wixstatic.com/media/6ec183_cec508e1a20243ad88afe0db84b817da~mv2.jpeg",
     shortDescription: "A Web3 venture capital and incubation fund, and the investment arm of Coin68 — one of the largest crypto media platforms in Vietnam.",
+    homepageCardContent: [
+      "Kyros Ventures is a Web3 venture capital and incubation fund, and the investment arm of Coin68 - one of the largest crypto media platforms in Vietnam, supporting 200+ early-stage blockchain startups.",
+      "I led marketing strategies for the fund and its portfolio projects, helping Web3 startups expand their presence across Southeast Asia through ecosystem partnerships, KOL onboarding and community growth initiatives."
+    ],
     impact: ["20+ Partners Managed", "10+ Communities Built", "$300K+ Revenue", "50+ Campaigns"],
     overview: [
       "Kyros Ventures is a Web3 venture studio and growth partner helping global blockchain projects expand into the Southeast Asia market.",
@@ -340,6 +356,11 @@ const rawProjectData = [
     thumbnailImage: "/assets/lilquid/lilquid-promotion-11.avif",
     thumbnailAlt: "Lilquid NFT campaign visual",
     shortDescription: "The flagship NFT collection and mascot of BSX DEX, the fastest perpetual DEX built on Base.",
+    homepageCardContent: [
+      "Lilquid is the flagship NFT collection and mascot of BSX DEX, the fastest perpetual DEX built on Base.",
+      "I led the launch and ecosystem campaigns, partnering with 500+ KOLs and DAOs, onboarding 1,000+ new users to the platform and generating $5M trading volume.",
+      "The collection reached Top 10 on Magic Eden, 50 ETH trading volume in week 1, with 0.03 ETH ATH floor price."
+    ],
     impact: ["$5M Trading Vol", "Top 10 Magic Eden", "2,000+ Traders Onboarded", "200+ KOLs"],
     overview: [
       "Lilquid is an NFT collection launched on Base as part of the ecosystem campaign for BSX DEX, designed to onboard new users and drive early community growth.",
@@ -457,6 +478,10 @@ const rawProjectData = [
     ],
     heroImage: "/assets/arkai/arkai-main-visual.avif",
     shortDescription: "Top 1 contributor community within the Movement ecosystem, built with support from the Movement Foundation.",
+    homepageCardContent: [
+      "Arkai is a top 1 contributor community within the Movement ecosystem, built with support from the Movement Foundation to connect builders, creators and early adopters.",
+      "I led project strategy, marketing campaigns and ecosystem initiatives to position Arkai as an early builder and contributor community within the Movement ecosystem."
+    ],
     impact: ["50+ Ecosystem Partnerships", "Movement Foundation Grant", "Community-driven Network"],
     overview: [
       "Arkai is the leading NFT community within the Movement ecosystem, supported by the Movement Foundation and backed through official grants.",

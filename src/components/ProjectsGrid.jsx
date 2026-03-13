@@ -23,6 +23,10 @@ export default function ProjectsGrid() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {projectData.map((project, index) => {
+            const cardContent = Array.isArray(project.homepageCardContent) && project.homepageCardContent.length > 0
+              ? project.homepageCardContent
+              : [project.shortDescription];
+
             return (
               <motion.div
                 key={project.slug}
@@ -87,9 +91,16 @@ export default function ProjectsGrid() {
                       </span>
                     </div>
 
-                    <p className="text-textSecondary text-sm leading-relaxed mb-5 min-h-[4.5rem]">
-                      {project.shortDescription}
-                    </p>
+                    <div className="mb-5 space-y-4">
+                      {cardContent.map((paragraph, paragraphIdx) => (
+                        <p
+                          key={`${project.slug}-card-paragraph-${paragraphIdx}`}
+                          className="text-textSecondary text-sm leading-relaxed"
+                        >
+                          {paragraph}
+                        </p>
+                      ))}
+                    </div>
 
                     <div className="mb-5">
                       <p className="inline-flex items-center gap-2 text-sm font-medium transition-colors" style={{ color: '#FFA3BD' }}>
