@@ -19,10 +19,6 @@ export default function ProjectsGrid() {
         >
           <p className="text-xs uppercase tracking-[0.28em] text-textSecondary mb-4">Selected Case Studies</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-5" style={{ color: '#FFA3BD' }}>Proof-first portfolio work</h2>
-          <p className="text-textSecondary text-base md:text-lg leading-relaxed">
-            Each project keeps the original campaign evidence intact: screenshots, visuals, media references, social posts, and launch materials.
-            The redesign focuses on making those assets easier to read as case studies rather than compressing or hiding them.
-          </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
